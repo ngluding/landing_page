@@ -1,1 +1,2 @@
 # landing_page
+This is my first landing page. I am both proud that I was able to make this without looking at any solutions and astonished of how messy and busy my codes look. All a learning experience as I learn to write cleaner and more efficient codes!

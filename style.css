@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #dfcfbe;
+    color: black;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.anime {
+    /* display: block; */
+    height: auto;
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.title_one {
+    font-size: 50px;
+    font-weight: 900;
+    width: 400px;
+    color: whitesmoke;
+    line-height: 80%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.text_one {
+    color: black;
+    width: 400px;
+}
+
+.body_one {
+    display: flex;
+    justify-content: center;
+    background: #dfcfbe;
+    gap: 15px;
+    padding: 60px 100px;
+}
+
+.one_left {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.body_two {
+    background: black;
+    padding: 125px 0px;
+}
+
+.image_two {
+    /* display: block; */
+    height: 125px;
+    width: 200px;
+    border: 5px solid gold;
+    border-radius: 20px;
+}
+
+.title_two {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: gold;
+    padding-bottom: 30px;
+}
+
+.info {
+    max-width: 200px;
+    color: whitesmoke;
+}
+
+.body_three {
+    padding: 100px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #eeeeee;
+}
+
+.text_three {
+    font-style: italic;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.title_three {
+    margin-left: 500px;
+}
+
+.body_four {
+    margin: auto;
+}
+
+.modal {
+    display: flex;
+    background: #f7cac9;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 50px 0px;
+    padding: 15px 20px;
+}
+
+.container_four {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title_four {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text_four {
+    font-size: 15px;
+}
+
+.footer {
+    background: #dfcfbe;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    color:whitesmoke;
+    background: black;
+    border: 1px solid whitesmoke;
+}
