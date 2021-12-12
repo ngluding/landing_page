@@ -27,6 +27,7 @@ body {
     font-size: 50px;
     font-weight: 900;
     width: 400px;
+    margin-bottom: 0px;
     color: whitesmoke;
     line-height: 80%;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -62,7 +63,7 @@ body {
 
 .body_two {
     background: black;
-    padding: 125px 0px;
+    padding: 100px 0px;
 }
 
 .image_two {
@@ -78,7 +79,7 @@ body {
     font-size: 36px;
     font-weight: 900;
     color: gold;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .info {
@@ -150,6 +151,16 @@ ul {
 a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2 {
+    font-size: inherit;
+    margin: 0px;
 }
 
 button {
