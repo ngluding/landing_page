@@ -6,6 +6,7 @@ body {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background: #dfcfbe;
@@ -18,7 +19,9 @@ body {
 .anime {
     /* display: block; */
     height: auto;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
     border: 5px solid black;
     border-radius: 20px;
 }
@@ -26,7 +29,7 @@ body {
 .title_one {
     font-size: 50px;
     font-weight: 900;
-    width: 400px;
+    max-width: 400px;
     margin-bottom: 0px;
     color: whitesmoke;
     line-height: 80%;
@@ -35,11 +38,12 @@ body {
 
 .text_one {
     color: black;
-    width: 400px;
+    max-width: 400px;
 }
 
 .body_one {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     background: #dfcfbe;
     gap: 15px;
@@ -90,7 +94,9 @@ body {
 .body_three {
     padding: 100px 25px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background: #eeeeee;
 }
@@ -101,8 +107,9 @@ body {
     max-width: 700px;
 }
 
-.title_three {
-    margin-left: 500px;
+.title_three > p {
+    padding-top: 15px;
+    position: absolute;
 }
 
 .body_four {
